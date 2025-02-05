@@ -440,6 +440,10 @@ menu {
     margin-bottom: 12px;
 }
 
+.service__tag {
+    margin: 0;
+}
+
 .service__block {
     flex: 1;
 }

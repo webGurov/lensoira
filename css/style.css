@@ -3,3 +3,50 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    --color-black: #1b1b1b;
+    --color-white: #fff;
+    --color-green: #DCE9B1;
+    --color-grey-bg: #F5F5F5;
+    --color-grey: #EBEBEB;
+    --color-text: #575757;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1376px;
+    margin: 0 auto;
+}
+
+
+/* Buttons */
+
+.btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
